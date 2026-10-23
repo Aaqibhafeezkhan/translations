@@ -146,5 +146,13 @@
   "kh": {
     "name": "Khmer",
     "nativeName": "ភាសាខ្មែរ"
+  },
+  "am": {
+    "name": "Amharic",
+    "nativeName": "አማርኛ"
+  },
+  "es_419": {
+    "name": "Spanish (Latin America)",
+    "nativeName": "Español (Latinoamérica)"
   }
 }
