@@ -26,13 +26,13 @@ See `data/mappings.json` for the complete list of supported languages and their 
 
 ### Prerequisites
 
-- Node.js 16+ and npm
+- Node.js 18+ and npm (CI uses Node.js 18)
 
 ### Installation
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/featherpanel-com/translations.git
 cd translations
 
 # Install dependencies (no external dependencies needed)
@@ -101,7 +101,7 @@ npm run sync:en
 ```
 
 This will:
-1. Download `en.json` from `https://raw.githubusercontent.com/MythicalLTD/FeatherPanel/main/frontendv2/public/locales/en.json`
+1. Download `en.json` from `https://raw.githubusercontent.com/MythicalLTD/FeatherPanel/refs/heads/develop/frontendv2/public/locales/en.json`
 2. Format and save it to `languages/en.json`
 
 The file is downloaded directly from GitHub, so no submodules or complex setup is required.
